@@ -26,10 +26,6 @@ var COLUMN_NAMES = [
 	'CostPerConversion',
 	'ConversionRate',
 	'Conversions',
-];
-
-var COLUMNS = COLUMN_NAMES.join(',');
-	Logger.log("Columns set");
 
 );
 	Logger.log("Report built");
