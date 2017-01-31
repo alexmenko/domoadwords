@@ -31,16 +31,6 @@ var COLUMN_NAMES = [
 var COLUMNS = COLUMN_NAMES.join(',');
 	Logger.log("Columns set");
 
-var REPORT = AdWordsApp.report(
-	'SELECT ' +
-	COLUMNS +
-	' FROM ' +
-	REPORT_TYPE +
-	' WHERE Status IN [REMOVED, ENABLED, PAUSED]' +
-	' AND ' +
-	FILTER +
-	' DURING ' +
-	DATE_RANGE
 );
 	Logger.log("Report built");
 
