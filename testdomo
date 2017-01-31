@@ -15,16 +15,10 @@ var COLUMN_NAMES = [
 	'Date',
 	'CampaignName',
 	'EffectiveFinalUrl',
-	'AdGroupName',
 	'Clicks',
 	'Impressions',
-	'Ctr',
-	'AverageCpc',
-	'AverageCpm',
 	'Cost',
 	'AveragePosition',
-	'CostPerConversion',
-	'ConversionRate',
 	'Conversions',
 
 );
