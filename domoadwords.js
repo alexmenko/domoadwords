@@ -8,7 +8,7 @@ var REPORT_TYPE = 'KEYWORDS_PERFORMANCE_REPORT';
 
 var FILTER = 'Impressions > 0';
 
-var DATE_RANGE = 'THIS_MONTH';
+var DATE_RANGE = 'THISMONTH';
 	Logger.log("Report date set");
 
 var COLUMN_NAMES = [
