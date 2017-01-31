@@ -16,6 +16,7 @@ var COLUMN_NAMES = [
 	'Criteria',
 	'Status',
 	'CampaignName',
+	'Final_URL',
 	'AdGroupName',
 	'Clicks',
 	'Impressions',
