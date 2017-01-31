@@ -12,7 +12,6 @@ var DATE_RANGE = 'THIS_MONTH';
 	Logger.log("Report date set");
 
 var COLUMN_NAMES = [
-	'Date',
 	'CampaignName',
 	'EffectiveFinalUrl',
 	'AdGroupName',
