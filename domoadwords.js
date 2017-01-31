@@ -3,7 +3,7 @@
 
 	Logger.log("Initiating remote script");
 
-var REPORT_TYPE = 'KEYWORDS_PERFORMANCE_REPORT';
+var REPORT_TYPE = 'FINAL_URL_REPORT';
 	Logger.log("Report type set");
 
 var FILTER = 'Impressions > 0';
@@ -13,8 +13,6 @@ var DATE_RANGE = 'THIS_MONTH';
 
 var COLUMN_NAMES = [
 	'Date',
-	'Criteria',
-	'Status',
 	'CampaignName',
 	'EffectiveFinalUrl',
 	'AdGroupName',
@@ -23,18 +21,11 @@ var COLUMN_NAMES = [
 	'Ctr',
 	'AverageCpc',
 	'AverageCpm',
-  'CpcBid',
 	'Cost',
 	'AveragePosition',
 	'CostPerConversion',
 	'ConversionRate',
 	'Conversions',
-	'ViewThroughConversions',
-	'QualityScore',
-	'BounceRate',
-	'CpcBid',
-	'AveragePageviews',
-	'AverageTimeOnSite'
 ];
 
 var COLUMNS = COLUMN_NAMES.join(',');
