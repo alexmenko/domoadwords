@@ -26,7 +26,14 @@ var COLUMN_NAMES = [
 var COLUMNS = COLUMN_NAMES.join(',');
 	Logger.log("Columns set");
 
-var REPORT = AdWordsApp.report
+var REPORT = AdWordsApp.report(
+	'SELECT ' +
+	COLUMNS +
+	' AND ' +
+	FILTER +
+	' DURING ' +
+	DATE_RANGE
+);
 
 	Logger.log("Report built");
 
