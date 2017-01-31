@@ -26,9 +26,7 @@ var COLUMN_NAMES = [
 var COLUMNS = COLUMN_NAMES.join(',');
 	Logger.log("Columns set");
 
-var REPORT = AdWordsApp.report(
-	
-);
+
 	Logger.log("Report built");
 
 REPORT.exportToSheet(adwordsSheet);
