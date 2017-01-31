@@ -29,8 +29,6 @@ var COLUMNS = COLUMN_NAMES.join(',');
 var REPORT = AdWordsApp.report(
 	'SELECT ' +
 	COLUMNS +
-	' FROM ' +
-	REPORT_TYPE +
 	' AND ' +
 	FILTER +
 	' DURING ' +
