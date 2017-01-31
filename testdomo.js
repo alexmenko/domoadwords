@@ -31,7 +31,6 @@ var REPORT = AdWordsApp.report(
 	COLUMNS +
 	' FROM ' +
 	REPORT_TYPE +
-	' WHERE Impressions > 0
 	' AND ' +
 	FILTER +
 	' DURING ' +
